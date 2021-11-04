@@ -1,9 +1,87 @@
-h4 {
-  background-image: -webkit-gradient(linear, right top, left top, from(#242424), to(#868686));
-  background-image: linear-gradient(to left, #242424, #868686);
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-h3, h4 {
+button {
+  font-size: large;
+  font-family: inherit;
+  text-transform: uppercase;
+  padding: 1rem;
+  border-right: 20px solid #20c309;
+  border-left: 20px solid #20c309;
+  border-top: 10px solid #1f768e;
+  border-bottom: 10px solid #1f768e;
+  border-radius: 6px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+  outline: 2px solid #131313;
+  color: rgba(255, 34, 126, 0.2);
+  background-image: -webkit-gradient(linear, right top, left top, from(#04001d), to(#4f0a0a));
+  background-image: linear-gradient(to left, #04001d, #4f0a0a);
+  -webkit-animation: bhaaa 5s alternate infinite;
+          animation: bhaaa 5s alternate infinite;
+}
+
+.container {
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-transform: translateY(105vh);
+          transform: translateY(105vh);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #fff5f5;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#af5126), to(#9400ca));
+  background-image: linear-gradient(to bottom, #af5126, #9400ca);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container button {
+  background: none;
+  outline: none;
+  color: black;
+  position: absolute;
+  right: 0.5rem;
+  border: none;
+  font-size: 2rem;
+}
+
+.container h6 {
+  margin: 0;
+  border-bottom: 4px salmon solid;
+  font-size: 4rem;
+}
+
+.container p {
+  margin-top: 90px;
+  color: #e4e4e4;
+  text-shadow: 1px 1px 20px black, 1px 1px 5px black;
+}
+
+.container.open {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+h3 {
   font-size: xx-large;
   font-family: inherit;
   text-transform: uppercase;

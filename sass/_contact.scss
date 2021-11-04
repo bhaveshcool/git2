@@ -1,5 +1,61 @@
-h4{
-    @extend h3;
-    
-    background-image: linear-gradient(to left, #242424, #868686);
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;padding: 0;
+    flex-direction: column;
+}
+
+button{
+    font-size: large;
+    font-family: inherit;
+    text-transform: uppercase;
+    padding: 1rem;
+    border-right: 20px solid #20c309 ;
+    border-left: 20px solid #20c309 ;
+    border-top: 10px solid #1f768e;
+    border-bottom: 10px solid #1f768e;
+    border-radius: 6px;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+    outline: 2px solid #131313;
+    color: rgba(255, 34, 126, 0.2);
+    background-image: linear-gradient(to left, #04001d, #4f0a0a);
+    animation: bhaaa 5s alternate infinite;
+}
+
+.container
+{
+    transition: all 0.3s ease-in;
+    align-items: center;
+    text-align: center;
+    transform: translateY(105vh);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff5f5;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #af5126, #9400ca);
+    flex-direction: column;
+
+    button{
+       background: none;
+       outline: none;
+       color: black;
+       position: absolute;
+       right: 0.5rem;
+       border: none;
+       font-size: 2rem;
+    }
+    h6{
+        margin: 0;
+        border-bottom: 4px salmon solid;
+        font-size: 4rem;
+    }
+
+    p{
+        margin-top: 90px;
+        color: #e4e4e4;
+        text-shadow : 1px 1px 20px rgba($color: #000000, $alpha: 1),1px 1px 5px rgba($color: #000000, $alpha: 1);
+    }
+}
+.container.open{
+     transform: translateY(0);
 }
