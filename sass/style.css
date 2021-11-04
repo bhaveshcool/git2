@@ -81,6 +81,113 @@ button {
           transform: translateY(0);
 }
 
+.txt {
+  margin: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  border: black 3px solid;
+  background-color: transparent;
+  width: 80vw;
+}
+
+.txt::-webkit-input-placeholder {
+  color: black;
+  text-transform: uppercase;
+}
+
+.txt:-ms-input-placeholder {
+  color: black;
+  text-transform: uppercase;
+}
+
+.txt::-ms-input-placeholder {
+  color: black;
+  text-transform: uppercase;
+}
+
+.txt::placeholder {
+  color: black;
+  text-transform: uppercase;
+}
+
+.txt:focus {
+  outline: none;
+}
+
+#btnnn {
+  border-radius: 10px;
+  width: 80vw;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+body {
+  -webkit-animation: dance 20s infinite linear;
+          animation: dance 20s infinite linear;
+  height: 100vh;
+  -webkit-transition: all 0.5s smooth;
+  transition: all 0.5s smooth;
+  width: 100vw;
+}
+
+@-webkit-keyframes dance {
+  0% {
+    background-size: cover;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#a74011), to(#7e1995));
+    background-image: linear-gradient(to bottom, #a74011, #7e1995);
+    background-repeat: no-repeat;
+  }
+  35% {
+    background-size: cover;
+    background-image: -webkit-gradient(linear, left top, right top, from(#a74011), to(#7e1995));
+    background-image: linear-gradient(to right, #a74011, #7e1995);
+    background-repeat: no-repeat;
+  }
+  65% {
+    background-size: cover;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#a74011), to(#7e1995));
+    background-image: linear-gradient(to top, #a74011, #7e1995);
+    background-repeat: no-repeat;
+  }
+  100% {
+    background-size: cover;
+    background-image: -webkit-gradient(linear, right top, left top, from(#a74011), to(#7e1995));
+    background-image: linear-gradient(to left, #a74011, #7e1995);
+    background-repeat: no-repeat;
+  }
+}
+
+@keyframes dance {
+  0% {
+    background-size: cover;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#a74011), to(#7e1995));
+    background-image: linear-gradient(to bottom, #a74011, #7e1995);
+    background-repeat: no-repeat;
+  }
+  35% {
+    background-size: cover;
+    background-image: -webkit-gradient(linear, left top, right top, from(#a74011), to(#7e1995));
+    background-image: linear-gradient(to right, #a74011, #7e1995);
+    background-repeat: no-repeat;
+  }
+  65% {
+    background-size: cover;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#a74011), to(#7e1995));
+    background-image: linear-gradient(to top, #a74011, #7e1995);
+    background-repeat: no-repeat;
+  }
+  100% {
+    background-size: cover;
+    background-image: -webkit-gradient(linear, right top, left top, from(#a74011), to(#7e1995));
+    background-image: linear-gradient(to left, #a74011, #7e1995);
+    background-repeat: no-repeat;
+  }
+}
+
 h3 {
   font-size: xx-large;
   font-family: inherit;
