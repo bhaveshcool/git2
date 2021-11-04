@@ -1,0 +1,26 @@
+h3 {
+  font-size: xx-large;
+  font-family: inherit;
+  text-transform: uppercase;
+  padding: 1rem;
+  border-right: 20px solid #20c309;
+  border-left: 20px solid #20c309;
+  border-top: 10px solid #1f768e;
+  border-bottom: 10px solid #1f768e;
+  border-radius: 6px;
+  outline: 2px solid #131313;
+  color: #9b0c0c;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ce561e), to(#895499));
+  background-image: linear-gradient(to right, #ce561e, #895499);
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
