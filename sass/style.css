@@ -1,4 +1,9 @@
-h3 {
+h4 {
+  background-image: -webkit-gradient(linear, right top, left top, from(#242424), to(#868686));
+  background-image: linear-gradient(to left, #242424, #868686);
+}
+
+h3, h4 {
   font-size: xx-large;
   font-family: inherit;
   text-transform: uppercase;
