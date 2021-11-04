@@ -20,3 +20,16 @@ body{
     overflow: hidden;
     justify-content: center;
 }
+
+a{
+    text-decoration: none;
+    font-weight: 10rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    border: 8px;
+    text-transform: uppercase;
+    padding: 1rem;
+    outline: black 2px solid;
+    font-size: 3.5rem;
+}
