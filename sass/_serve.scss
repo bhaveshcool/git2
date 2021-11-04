@@ -1,0 +1,54 @@
+.txt{
+   margin: auto;
+   box-sizing: border-box;
+   padding: 1rem;
+   font-size: 2rem;
+   text-align: center;
+   border-radius: 10px;
+   border: black 3px solid;
+   background-color: transparent;
+   width: 80vw;
+}
+.txt::placeholder{
+    color: black;
+    text-transform: uppercase;
+}
+.txt:focus{
+    outline: none;
+}
+#btnnn{
+    border-radius: 10px;
+    width: 80vw;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+body{
+    animation: dance 20s infinite linear;
+    height: 100vh;
+    transition: all 0.5s smooth;
+    width: 100vw;
+}
+
+@keyframes dance{
+    0%{
+        background-size: cover;
+        background-image: linear-gradient(to bottom, rgb(167, 64, 17), rgb(126, 25, 149));
+        background-repeat: no-repeat;
+    }
+    35%{
+        background-size: cover;
+        background-image: linear-gradient(to right, rgb(167, 64, 17), rgb(126, 25, 149));
+        background-repeat: no-repeat;
+    }
+    65%{
+        background-size: cover;
+        background-image: linear-gradient(to top, rgb(167, 64, 17), rgb(126, 25, 149));
+        background-repeat: no-repeat;
+    }
+    100%{
+        background-size: cover;
+        background-image: linear-gradient(to left, rgb(167, 64, 17), rgb(126, 25, 149));
+        background-repeat: no-repeat;
+    }
+}
